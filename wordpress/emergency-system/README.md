@@ -49,7 +49,6 @@ Stay up to date on all the latest developments in virology and biotechnology wit
 == Screenshots ==
 
 1. Emergency System
-2. Emergency System
 
 == Changelog ==
 
