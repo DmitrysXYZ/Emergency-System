@@ -1,0 +1,55 @@
+{
+	"name": "emergency-system",
+	"description": "Helping people stay alert in the event of a biological hazard. To give a step to scientists in this field to publish their scientific works, reports, research.",
+	"keywords": [
+		"wordpress",
+    "emergency".
+    "who",
+		"health"
+	],
+	"homepage": "https://dmitrys.xyz",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Dmitry N. Giannopulos",
+			"email": "hello@dmitrys.xyz",
+			"homepage": "https://dmitrys.xyz/app/"
+		}
+	],
+	"type": "wordpress-plugin",
+	"support": {
+		"issues": "https://github.com/DmitrysXYZ/Emergency-System/issues",
+		"forum": "https://wordpress.org/support/plugin/",
+		"wiki": "https://github.com/DmitrysXYZ/Emergency-System/wiki",
+		"source": "https://github.com/DmitrysXYZ/Emergency-System"
+	},
+	"require": {
+		"php": "^5.6.20||^7.0",
+		"composer/installers": "^1.9.0"
+	},
+	"require-dev": {
+		"humbug/php-scoper": "^0.13.4",
+		"league/oauth2-client": "2.4.1",
+		"php-parallel-lint/php-console-highlighter": "^0.5",
+		"php-parallel-lint/php-parallel-lint": "^1.2.0",
+		"phpunit/phpunit": "^5.7",
+		"psr/log": "^1.0"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload": {
+		"classmap": [
+			"emergency-system/"
+		]
+	},
+		"check-cs-summary": [
+			"@check-cs-warnings --report=summary"
+		],
+		"check-cs": [
+			"@check-cs-warnings -n"
+		],
+		"check-staged-cs": [
+			"@check-cs-warnings --filter=GitStaged"
+		],
+	}
+}
