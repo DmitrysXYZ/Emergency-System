@@ -7,7 +7,17 @@
 * Author URI: https://dmitrys.xyz/
 * Text Domain: emergency-system
 * Domain Path: /languages/
+*
+* Emergency System
+* Copyright (C) 2018-2021, Dmitrys.xyz - info@dmitrys.xyz
+*
+* You should have received a copy of the GNU General Public License
+* along with Emergency System. If not, see <http://www.gnu.org/licenses/>.
+*
+* @package Emergency System
 */
+
+// Exit if accessed directly.
 
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
@@ -21,7 +31,11 @@ if ( !defined('EMS_PLUGIN_PATH') ) {
     define( 'EMS_PLUGIN_PATH', plugin_dir_path(__FILE__ ) );
 }
 
-class COV_Stats {
+define( 'EMS_VERSION', '1.0' );
+define( 'EMS_DEBUG', true );
+define( 'EMS_URL', 'https://dmitrys.xyz/app/' );
+
+class EMS_Stats {
 
     public function __construct() {
         //plugin settings
@@ -38,7 +52,7 @@ class COV_Stats {
     }// end function
 }
 
-$cov_stats = new COV_Stats;
+$cov_stats = new EMS_Stats;
 /*-----------------------------------------
                 Shortcodes
 ------------------------------------------*/
