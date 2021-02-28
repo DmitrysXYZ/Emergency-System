@@ -12,7 +12,7 @@ function ems__active() {
     </div>
     
     <div data-dismissible="ems-active-3" class="notice ems-notice ems-shortcode notice-success is-dismissible">
-        <div class="col-left"><h2>Shortcode [ems-widget type="global-wide"]</h2></div>
+        <div class="col-left"><h2>Shortcode [ems-widget type="global-ems"]</h2></div>
     </div>
 
         <?php
@@ -28,7 +28,7 @@ function ems__notice_rate()
     <div data-dismissible="ems-rating-30" class="notice ems-notice notice-success is-dismissible">
         <p class="ems-p"><?php 
     $rating_url = "https://wordpress.org/support/plugin/reviews/?rate=5#new-post";
-    $show_support = sprintf( wp_kses( __( 'Show support for Emergency System Plugin with a 5-star rating » <a href="%s" target="_blank">Click here</a>', 'ems' ), array(
+    $show_support = sprintf( wp_kses( __( 'Show support for Emergency System Plugin with a 5-star rating » <a href="%s" target="_blank">Click here</a>',  'ems' ), array(
         'a' => array(
         'href'   => array(),
         'target' => array(),

@@ -15,7 +15,7 @@ function ems_widget_shortcode( $atts ) {
 
     $rand = rand();
 
-    if ($type == 'global-wide') {  require dirname( __FILE__ ) .'/widgets/global-wide.php'; }
+    if ($type == 'global-ems') {  require dirname( __FILE__ ) .'/widgets/ems.php'; }
 
     else { $output = 'Error: please define a correct widget type'; }
 
