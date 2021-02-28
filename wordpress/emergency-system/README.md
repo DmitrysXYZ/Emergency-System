@@ -23,7 +23,7 @@ Add shortcode any page or post
 
 
 **Emergency System**
-[ems-widget type="global-wide"]
+[ems-widget type=”global-ems”]
 
 
 **Data Source:** [API](https://github.com/DmitrysXYZ/Emergency-System). 
@@ -36,7 +36,7 @@ Add shortcode any page or post
 1. Download Plugin in Zip format 
 2. Go to WordPress admin > Plugins > Add New
 3. Upload Zip file and Activate Plugin
-4. Shortcode [ems-widget type="global-wide"]
+4. Shortcode [ems-widget type=”global-ems”]
 
 == Frequently Asked Questions ==
 
