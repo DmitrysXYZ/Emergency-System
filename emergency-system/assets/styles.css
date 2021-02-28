@@ -1,0 +1,172 @@
+
+ .ems-card, .ems-card h3, .ems-card h4, .ems-card h5, .ems-card, .global-wide {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.ems-card {
+    position: relative;
+    width: 450px;
+    margin: auto;
+    color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 0 0 30px 0 rgba(30, 135, 240, 0.5);
+}
+.ems-card .ems-icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 100px;
+}
+.ems-card h3, .ems-card h5 {
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+}
+.ems-card h3 {
+    font-size: 28px;
+}
+.ems-card h5 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.ems-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.ems-grid .ems-col {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.08);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 20px 12px;
+    text-align: center;
+    border-radius: 22px;
+}
+.ems-grid .ems-col:nth-child(3n) {
+    margin-right: 0;
+}
+.ems-grid .ems-col .fas {
+    display: block;
+     width: 80px;
+    height: 80px;
+    font-size: 40px;
+    line-height: 190%;
+    background-color: #fff;
+    color: rgb(30, 135, 240);
+    border-radius: 100%;
+    margin: auto;
+}
+.ems-grid .ems-col h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px 0 3px;
+}
+.ems-grid .ems-col span {
+    position: absolute;
+    top: 88px;
+    right: 5px;
+    background-color: #ef3232;
+    color: #fff;
+    padding: 3px 5px 4px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+.ems-center {
+    text-align: center;
+}
+
+/* COV GLOBAL WIDE WIDGET */
+.global-wide .ems-global-wide {
+    position: relative;
+    padding: 40px 40px;
+}
+.global-wide .ems-global-wide p {
+    margin: 0;
+}
+.global-wide .ems-global-wide, .ems-global-wide h2, .ems-global-wide h3 {
+    color: rgba(255,255,255,.7);
+}
+.global-wide .ems-global-wide h2 {
+    color: rgb(255,255,255);
+}
+.global-wide .ems-global-wide .ems-date {
+	position: absolute;
+	top: 15px;
+	left: 0px;
+	background-color: rgba(255,255,255,1);
+	padding: 0 10px;
+	color: #000;
+    font-size: 16px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.global-wide .ems-numbers h2, .global-wide .ems-numbers h3 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    line-height: 110%;
+    letter-spacing: normal;
+    font-weight: 700;
+}
+.global-wide .ems-numbers h2 {
+    font-size: 60px;
+}
+.global-wide .ems-numbers h3 {
+    font-size: 20px;
+}
+
+
+.tabulator-cell[tabulator-field="country"] {
+    font-weight: 700;
+}
+.tabulator-cell[tabulator-field="todayCases"] {
+    background-color: #e0f2ff;
+    font-weight: 700;
+}
+.tabulator-cell[tabulator-field="todayCases"]:before {
+    content: "+"
+}
+.tabulator-cell[tabulator-field="todayDeaths"] {
+    background-color: #f00;
+    color: #fff;
+    font-weight: 700;
+}
+.tabulator-cell[tabulator-field="todayDeaths"]:before {
+    content: "+"
+}
+.tabulator .tabulator-header, .tabulator .tabulator-header .tabulator-col {
+    background-color: #000;
+    color: #fff;
+}
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable:hover {
+    background-color: #333;
+}
+.tabulator .tabulator-footer {
+    padding: 5px 0;
+}
+.tabulator .tabulator-footer .tabulator-page-size {
+    display: inline-block;
+    margin: 5px 5px 0;
+    height: 35px;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 3px;
+    width: 60px;
+}
+.tabulator-paginator label {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 8px 5px 0;
+}
+.tabulator .tabulator-footer .tabulator-page {
+    background: hsla(0,0%,100%,.2)!important;
+    color: #444!important;
+}
+.tabulator .tabulator-footer .tabulator-page:hover {
+    background-color: #444!important;
+    color: #fff!important;
+}
