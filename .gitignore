@@ -1,4 +1,14 @@
-/emrgency-system/vendor/
-/emrgency-system/assets/
-/emrgency-system/inlcudes/
-/emrgency-system/inlcudes/widgets/
+
+############
+## Emergency System
+############
+emergency-system.php
+
+############
+# Dist files
+############
+/inlcudes/*
+/inlcudes/widgets/*
+/vendor/*
+/assets/*
+
