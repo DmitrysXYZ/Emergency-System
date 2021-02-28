@@ -12,9 +12,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
 Emergency System
 Stay up to date on all the latest developments in virology and biotechnology with ongoing updates from the W.H.O. ( World. Health. Organization ).
-Helping people stay alert in the event of a biological hazard. To give a step to scientists in this field to publish their scientific works, reports, research.
-On this page you can publish your own scientific article. This way you can develop your project and the members of our application will get to know you.
-* We check the very serious articles and publish them your article can be left for many days again in the application an easy way of advertising.
+Helping people stay alert in the event of a biological hazard.
+* You can also use our application on your own website through the wordpress plugin.
 
 ### USAGE
 
@@ -27,7 +26,7 @@ Add shortcode any page or post
 
 
 **Data Source:** [API](https://github.com/DmitrysXYZ/Emergency-System). 
-* Please check Privacy Policy [here](https://dmitrys.xyz/policy.php). 
+* Please check Privacy Policy [here](https://dmitrys.xyz/app/policy.php). 
 
 == Installation ==
 
@@ -41,7 +40,7 @@ Add shortcode any page or post
 == Frequently Asked Questions ==
 
 = What is Emergency System? =
-Helping people stay alert in the event of a biological hazard. To give a step to scientists in this field to publish their scientific works, reports, research.
+Helping people stay alert in the event of a biological hazard.
 
 = How often data updates? =
 Stay up to date on all the latest developments in virology and biotechnology with ongoing updates from the W.H.O. ( World. Health. Organization ).
