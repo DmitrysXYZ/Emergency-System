@@ -1,4 +1,5 @@
 === Emergency System ===
+
 Contributors: Dmitry N. Giannopulos
 Tags: emergency, emergency system, covid-19, covid, coronavirus, WHO,
 Requires at least: 4.1
