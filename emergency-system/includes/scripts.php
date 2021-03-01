@@ -8,6 +8,8 @@ wp_enqueue_style( 'ems__tabulator_styles',  EMS_PLUGIN_DIR . '/vendor/tabulator/
 
 wp_enqueue_style( 'ems__styles',  EMS_PLUGIN_DIR . '/assets/styles.css', array(), filemtime( EMS_PLUGIN_PATH . '/assets/styles.css' ) );
 
+wp_enqueue_style( 'ems__styles',  EMS_PLUGIN_DIR . '/assets/fontawesome.min.css', array(), filemtime( EMS_PLUGIN_PATH . '/assets/fontawesome.min.css' ) );
+
 wp_enqueue_script( 'ems__axios',  EMS_PLUGIN_DIR . '/vendor/axios.min.js', array(), filemtime( EMS_PLUGIN_PATH . '/vendor/axios.min.js' ), true );
 
 wp_enqueue_script("moment");

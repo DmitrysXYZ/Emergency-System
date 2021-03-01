@@ -2,10 +2,15 @@
 
 function ems_widget_shortcode( $atts ) {
     // Attributes
+    $atts = shortcode_atts(
+        array(
+            'type' => 'global-ems',
+        ),
+        $atts,
+        'ems-widget'
+    );
 
     $type = $atts['type'];
-    $bgcolor = $atts['bgcolor'];
-    $textcolor = $atts['textcolor'];
 
     // $placeholder = $atts['placeholder'];
     // $height = $atts['height'];
