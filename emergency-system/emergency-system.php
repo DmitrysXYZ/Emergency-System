@@ -52,7 +52,7 @@ class EMS_Stats {
     }// end function
 }
 
-$cov_stats = new EMS_Stats;
+$ems_stats = new EMS_Stats;
 /*-----------------------------------------
                 Shortcodes
 ------------------------------------------*/
