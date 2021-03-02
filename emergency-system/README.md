@@ -1,6 +1,7 @@
 === Emergency System ===
+
 Contributors: Dmitry N. Giannopulos
-Tags: emergency, emergency system, covid-19, covid, coronavirus, WHO, alert,
+Tags: emergency, covid-19, ems, coronavirus, covid, biological 
 Requires at least: 4.2
 Requires PHP: 7.2.33
 Tested up to: 5.6.2
@@ -47,7 +48,7 @@ Add shortcode any page or post
 
 
 **Emergency System**
-[ems-widget type=”global-ems”]
+[ems-widget type="global-ems"]
 
 
 **Data Source:** [API](https://github.com/DmitrysXYZ/Emergency-System). 
@@ -61,7 +62,7 @@ Add shortcode any page or post
 1. Download Plugin in Zip format 
 2. Go to WordPress admin > Plugins > Add New
 3. Upload Zip file and Activate Plugin
-4. Shortcode [ems-widget type=”global-ems”]
+4. Shortcode [ems-widget type="global-ems"]
 
 == Frequently Asked Questions ==
 
