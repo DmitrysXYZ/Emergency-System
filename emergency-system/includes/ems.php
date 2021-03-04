@@ -3,10 +3,9 @@
 <!-- header('x-powered-by: Emergency System(?:/([\\d.]+))?\\;version:\\1');  -->
 
 <?php
-$value = 'EMS';
-
-setcookie("EMS", $value);
-setcookie("EMS", $value, time()+3600);  /* expire in 1 hour */
+$cookie_name = "EMS";
+$cookie_value = "EMS";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
 ?>
 
 <global-ems>
