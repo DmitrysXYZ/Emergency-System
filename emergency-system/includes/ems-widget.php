@@ -4,7 +4,7 @@ function ems_widget_shortcode( $atts ) {
     // Attributes
     $atts = shortcode_atts(
         array(
-            'type' => 'global-ems',
+            'type' => 'global-ems'
         ),
         $atts,
         'ems-widget'
@@ -20,7 +20,7 @@ function ems_widget_shortcode( $atts ) {
 
     $rand = rand();
 
-    if ($type == 'global-ems') {  require dirname( __FILE__ ) .'/widgets/ems.php'; }
+    if ($type == 'global-ems') {  require dirname( __FILE__ ) .'/ems.php'; }
 
     else { $output = 'Error: please define a correct widget type'; }
 
@@ -28,3 +28,4 @@ function ems_widget_shortcode( $atts ) {
 
 }
 add_shortcode( 'ems-widget', 'ems_widget_shortcode' );
+
