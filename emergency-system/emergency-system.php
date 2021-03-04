@@ -74,7 +74,7 @@ if ( is_admin() ) {
 }
 
 function ems__styles() {
-    $google_font = 'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap';
+    $google_font = 'https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap';
     wp_register_style( 'ems__styles_font',  $google_font );
     wp_enqueue_style( 'ems__styles_font' );
 
