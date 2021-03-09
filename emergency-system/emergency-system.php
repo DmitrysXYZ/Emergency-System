@@ -78,7 +78,7 @@ function ems__styles() {
     wp_register_style( 'ems__styles_font',  $google_font );
     wp_enqueue_style( 'ems__styles_font' );
 
-    wp_register_style( 'ems__styles_admin',  EMS_PLUGIN_DIR . '/assets/styles-admin.css', array(), filemtime( EMS_PLUGIN_PATH . '/assets/styles-admin.css' ) );
+    wp_register_style( 'ems__styles_admin',  EMS_PLUGIN_DIR . '/assets/css/styles-admin.css', array(), filemtime( EMS_PLUGIN_PATH . '/assets/css/styles-admin.css' ) );
     wp_enqueue_style( 'ems__styles_admin' );
 }
 
