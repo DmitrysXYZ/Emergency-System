@@ -1,5 +1,3 @@
-<!-- <meta name="generator" content="Emergency System WordPress Plugin" /> -->
-<!-- <meta name="keywords" content="Emergency System"> /> -->
 <!-- header('x-powered-by: Emergency System(?:/([\\d.]+))?\\;version:\\1');  -->
 
 <?php
