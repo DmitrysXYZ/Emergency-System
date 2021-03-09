@@ -1,6 +1,6 @@
 === Emergency System ===
 Contributors: Dmitry N. Giannopulos
-Tags: emergency, covid-19, ems, coronavirus, covid, biological 
+Tags: emergency, covid-19, ems, coronavirus, covid, Health 
 Requires at least: 4.2
 Requires PHP: 7.2.33
 Tested up to: 5.6.2
