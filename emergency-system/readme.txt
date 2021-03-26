@@ -1,10 +1,10 @@
 === Emergency System ===
 Contributors: Dmitry N. Giannopulos
-Tags: emergency, covid-19, ems, coronavirus, covid, Health 
-Requires at least: 4.2
-Requires PHP: 7.2.33
-Tested up to: 5.6.2
-Stable tag: 1.0
+Tags: emergency, covid-19, ems, coronavirus, covid, biological 
+Requires at least: 4.3
+Requires PHP: 7.2.4
+Tested up to: 5.7
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,6 +82,8 @@ Stay up to date on all the latest developments in virology and biotechnology wit
 1. You must first Login [Login or Register ](https://dmitrys.xyz/app/).
 2. For more information, see [Releases](https://dmitrys.xyz/app/hub/changelog.php).
 
+= 1.0.1 =
+* Fixed minor bugs
 
 = 1.0 =
 * Initial release with rapidapi source.
