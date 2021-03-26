@@ -1,11 +1,5 @@
 <!-- header('x-powered-by: Emergency System(?:/([\\d.]+))?\\;version:\\1');  -->
 
-<?php
-$cookie_name = "EMS";
-$cookie_value = "EMS";
-setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
-?>
-
 <global-ems>
 			
 			<!-- Start Work -->
@@ -26,9 +20,6 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1
 
 <hr>
 <small>Made With <i class="fa fa-heart"></i> By <a href="http://dmitrys.xyz/app/" target="_blank" class="ems">Dmitrys.xyz</a></small>
-<br>
-<br>
-<center><img src="<?php echo plugin_dir_url( __FILE__ ) . '../assets/who.png'; ?>"></center>
 
 						</div>					
 
