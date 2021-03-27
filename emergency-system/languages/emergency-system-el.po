@@ -1,0 +1,35 @@
+# Translation of Plugins - Emergency System - Stable (latest release) in Greek
+# This file is distributed under the same license as the Plugins - Emergency System - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-27 15:59+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.4.2\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - Emergency System - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Dmitry N. Giannopulos <info@dmitrys.xyz>\n"
+"Language-Team: \n"
+
+#: includes/notices.php:27
+msgid "Show support for Emergency System Plugin with a 5-star rating » <a href=\"%s\" target=\"_blank\">Click here</a>"
+msgstr "Εμφάνιση υποστήριξης για πρόσθετο  Emergency System με βαθμολογία 5 αστέρων » <a href=\"%s\" target=\"_blank\">Κάντε κλικ εδώ</a>"
+
+#. Author URI of the plugin
+msgid "https://dmitrys.xyz/"
+msgstr "https://dmitrys.xyz/"
+
+#. Author of the plugin
+msgid "Dmitry N. Giannopulos"
+msgstr "Dmitry N. Giannopulos"
+
+#. Description of the plugin
+msgid "Helping people stay alert in the event of a biological hazard. To give a step to scientists in this field to publish their scientific works, reports, research."
+msgstr "Βοηθώντας τους ανθρώπους να παραμένουν σε εγρήγορση σε περίπτωση βιολογικού κινδύνου."
+
+#. Plugin Name of the plugin
+msgid "Emergency System"
+msgstr "Emergency System"
