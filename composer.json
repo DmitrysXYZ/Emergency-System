@@ -25,7 +25,6 @@
 		"wp-phpunit/wp-phpunit": "^5.4"
 	},
 	"require": {
-		"composer/installers": "~1.0",
 		"php": ">=7.4",
 		"ext-json": "*"
 	}
