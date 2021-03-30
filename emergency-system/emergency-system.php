@@ -3,7 +3,7 @@
 * Plugin Name: Emergency System
 * Description: Helping people stay alert in the event of a biological hazard. To give a step to scientists in this field to publish their scientific works, reports, research.
 * Author: Dmitry N. Giannopulos
-* Version: 1.0.1
+* Version: 1.0.2
 * Author URI: https://dmitrys.xyz/
 * Text Domain: emergency-system
 * Domain Path: /languages/
@@ -31,9 +31,10 @@ if ( !defined('EMS_PLUGIN_PATH') ) {
     define( 'EMS_PLUGIN_PATH', plugin_dir_path(__FILE__ ) );
 }
 
-define( 'EMS_VERSION', '1.0.1' );
+define( 'EMS_VERSION', '1.0.2' );
 define( 'EMS_DEBUG', true );
 define( 'EMS_URL', 'https://dmitrys.xyz/app/' );
+define( 'EMS_LANG_DIR', 'languages');
 
 class EMS_Stats {
 
@@ -83,3 +84,20 @@ function ems__styles() {
 }
 
 add_action( 'admin_enqueue_scripts', 'ems__styles' );
+
+
+// Only for WP 4.4.x or higher
+function posk_requires_wordpress_version() {
+	global $wp_version;
+	$plugin = plugin_basename( __FILE__ );
+	$plugin_data = get_plugin_data( __FILE__, false );
+	$require_wp = "4.4";
+ 
+	if ( version_compare( $wp_version, $require_wp, "<" ) ) {
+		if( is_plugin_active($plugin) ) {
+			deactivate_plugins( $plugin );
+			wp_die( "<strong>".$plugin_data['emergency-system/emergency-system.php']."</strong>Emergency System Plugin requires <strong>WordPress ".$require_wp."</strong> or higher, and has been deactivated! Please upgrade WordPress and try again.<br /><br />Back to the WordPress <a href='".get_admin_url(null, 'plugins.php')."'>Plugins page</a>." );
+		}
+	}
+}
+add_action( 'admin_init', 'posk_requires_wordpress_version' );

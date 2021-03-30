@@ -1,10 +1,10 @@
 === Emergency System ===
 Contributors: Dmitry N. Giannopulos
 Tags: emergency, covid-19, ems, coronavirus, covid, biological 
-Requires at least: 4.3
-Requires PHP: 7.2.4
+Requires at least: 4.4
+Requires PHP: 7.3
 Tested up to: 5.7
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,6 +56,11 @@ Add shortcode any page or post
 
 == Installation ==
 
+= Minimum Requirements =
+
+* WordPress 4.4.0 or greater
+* PHP version 7.3 or greater
+
 = Installing manually =
 
 1. Download Plugin in Zip format 
@@ -79,14 +84,20 @@ Stay up to date on all the latest developments in virology and biotechnology wit
 
 == Changelog ==
 
-1. You must first Login [Login or Register ](https://dmitrys.xyz/app/).
-2. For more information, see [Releases](https://dmitrys.xyz/app/hub/changelog.php).
+For more information, see [Releases](https://dmitrys.xyz/app/changelog.php)
 
-= 1.0.1 =
-* Fixed minor bugs
 
-= 1.0 =
-* Initial release with rapidapi source.
+= 1.0.2 30/03/2021 =
+* Fix: minor bugs
+* New: Languages GR, RU
+
+= 1.0.1 26/03/2021 =
+* Fix: minor bugs
+
+= 1.0 - 10/03/2021 =
+* New: Initial release with rapidapi source.
 
 
 == Upgrade Notice ==
+
+Automatic update working great for this plugin. If you customize the plugin make sure to store a backup before up
