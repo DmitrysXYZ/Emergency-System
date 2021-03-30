@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/github/DmitrysXYZ/Emergency-System)](https://travis-ci.org/github/DmitrysXYZ/Emergency-System)
+[![Build Status](https://travis-ci.com/github/DmitrysXYZ/Emergency-System)](https://travis-ci.com/github/DmitrysXYZ/Emergency-System)
 
 
 Emergency System
