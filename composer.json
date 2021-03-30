@@ -31,10 +31,5 @@
 	"require": {
 		"composer/installers": "~1.0",
 		"ext-json": "*"
-	},
-	"suggest": {
-        "ext-apcu": "Required to use the APCu cache driver",
-        "ext-memcached": "Required to use the Memcached driver",
-        "ext-redis": "Required to use the Redis cache driver"
-        }
+	}
 }
