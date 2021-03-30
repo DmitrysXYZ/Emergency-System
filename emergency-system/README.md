@@ -1,4 +1,4 @@
-=== Emergency System ===
+###  Emergency System
 Contributors: Dmitry N. Giannopulos
 Tags: emergency, covid-19, ems, coronavirus, covid, biological 
 Requires at least: 4.4
@@ -8,22 +8,22 @@ Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-== Description ==
+###  Description
  
 Emergency System
 Stay up to date on all the latest developments in virology and biotechnology with ongoing updates from the W.H.O. ( World. Health. Organization ).
 Helping people stay alert in the event of a biological hazard.
 * You can also use our application on your own website through the wordpress plugin.
 
-== Docs and support ==
+###  Docs and support
 
 You can find [docs](https://dmitrys.xyz/app/), [FAQ](https://dmitrys.xyz/app/) and more detailed information about Emergency System on [dmitrys.xyz/app/](https://dmitrys.xyz/app/). When you can't find the answer to your question on the FAQ or in any of the documentation.
 
-== Emergency System needs your support ==
+###  Emergency System needs your support
 
 It is hard to continue development and support for this free plugin without contributions from users like you. If you enjoy using Emergency System and find it useful, please consider [making a donation](https://dmitrys.xyz/donate/). Your donation will help encourage and support the plugin's continued development and better user support.
 
-== Privacy notices ==
+###  Privacy notices
 
 With the default configuration, this plugin, in itself, does not:
 
@@ -54,7 +54,7 @@ Add shortcode any page or post
 * Please check Privacy Policy [here](https://dmitrys.xyz/app/policy.php). 
 
 
-== Installation ==
+### Installation
 
 = Minimum Requirements =
 
@@ -77,12 +77,12 @@ Helping people stay alert in the event of a biological hazard.
 Stay up to date on all the latest developments in virology and biotechnology with ongoing updates from the W.H.O. ( World. Health. Organization ).
 
 
-== Screenshots ==
+###  Screenshots
 
 1. screenshot-1.png
 2. screenshot-2.png
 
-== Changelog ==
+### Changelog
 
 For more information, see [Releases](https://dmitrys.xyz/app/changelog.php)
 
@@ -98,6 +98,6 @@ For more information, see [Releases](https://dmitrys.xyz/app/changelog.php)
 * New: Initial release with rapidapi source.
 
 
-== Upgrade Notice ==
+### Upgrade Notice
 
 Automatic update working great for this plugin. If you customize the plugin make sure to store a backup before up
