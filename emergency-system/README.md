@@ -1,5 +1,4 @@
-
-[![Build Status](https://travis-ci.com/github/DmitrysXYZ/Emergency-System)](https://travis-ci.com/github/DmitrysXYZ/Emergency-System)
+![Build Status](https://travis-ci.com/DmitrysXYZ/Emergency-System.svg?branch=main)](https://travis-ci.com/github/DmitrysXYZ/Emergency-System)
 
 
 Emergency System
