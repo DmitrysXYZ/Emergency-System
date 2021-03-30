@@ -1,19 +1,27 @@
 {
-	"name": "emergency-system",
+	"name": "DmitrysXYZ/Emergency-System",
 	"description": "Helping people stay alert in the event of a biological hazard.",
-	"type": "wordpress-plugin",
+	"homepage": "https://dmitrys.xyz/app/",
+        "type": "wordpress-plugin",
+        "license": "GPL-3.0-or-later",
+        "prefer-stable": true,
+        "minimum-stability": "dev",
 	"keywords": [
 		"wordpress",
                 "who",
 		"health"
 	],
-	"homepage": "https://dmitrys.xyz",
-	"license": "GPL-2.0-or-later",
+	"repositories": [
+        {
+       "type": "path",
+       "url": "lib"
+       }
+       ],
 	"authors": [
 		{
 			"name": "Dmitry Giannopulos",
 			"email": "hello@dmitrys.xyz",
-			"homepage": "https://dmitrys.xyz/app/"
+			"homepage": "https://dmitrys.xyz/"
 		}
 	],
 	
@@ -22,6 +30,7 @@
     },
     "require": {
 	"php": "^7.1.0||^7.4",
+	"composer/installers": "~1.7",
         "ext-dom": "*",
         "ext-fileinfo": "*",
         "ext-zip": "*",
