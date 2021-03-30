@@ -1,5 +1,5 @@
 {
-	"name": "DmitrysXYZ/emergency-system",
+	"name": "emergency-system",
 	"description": "Helping people stay alert in the event of a biological hazard.",
 	"type": "wordpress-plugin",
 	"keywords": [
@@ -11,7 +11,7 @@
 	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
-			"name": "Dmitry N. Giannopulos",
+			"name": "Dmitry Giannopulos",
 			"email": "hello@dmitrys.xyz",
 			"homepage": "https://dmitrys.xyz/app/"
 		}
