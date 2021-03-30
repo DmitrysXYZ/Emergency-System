@@ -1,4 +1,10 @@
-###  Emergency System
+
+[![Build Status](https://travis-ci.org/github/DmitrysXYZ/Emergency-System)](https://travis-ci.org/github/DmitrysXYZ/Emergency-System)
+
+
+Emergency System
+==============
+
 Contributors: Dmitry N. Giannopulos
 Tags: emergency, covid-19, ems, coronavirus, covid, biological 
 Requires at least: 4.4
