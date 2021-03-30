@@ -24,3 +24,22 @@ env:
     # Latest stable version
     - WP_VERSION=stable WP_MULTISITE=0
     - WP_VERSION=stable WP_MULTISITE=1
+    
+# Prepare the system by installing prerequisites and dependencies.
+# Failures in this section will result in build status 'errored'.
+before_install:
+  - nvm install node
+  - composer self-update
+  - npm install -g gulp
+  
+# Prepare your build for testing.
+# Failures in this section will result in build status 'errored'.
+before_script:
+  - pwd
+
+  # Build plugin
+  - composer install
+  - npm install
+  - npm run build
+  - npm run package
+  
