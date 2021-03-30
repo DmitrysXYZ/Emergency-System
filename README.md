@@ -1,3 +1,5 @@
+<a href="https://travis-ci.com/github/DmitrysXYZ/Emergency-System"><img src="https://img.shields.io/travis/DmitrysXYZ/Emergency-System.svg?style=flat-square" alt="Build Status"></a>
+
 # Emergency-System  v.1.0.2
 
 == Description ==
