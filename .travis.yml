@@ -26,18 +26,10 @@ env:
     - WP_VERSION=stable WP_MULTISITE=1
 
 
-# Prepare the system by installing prerequisites and dependencies.
-# Failures in this section will result in build status 'errored'.
-before_install:
-  - composer self-update
-
 # Prepare your build for testing.
 # Failures in this section will result in build status 'errored'.
 before_script:
   - pwd
-
-  # Build plugin
-  - composer install
 
   # set up WP install
   - bash tests/install.sh $WP_VERSION wordpress_test root
@@ -51,5 +43,3 @@ script:
   - find . -maxdepth 1 \( -name '*.php' \) -exec php -lf {} \;
   - find php/ \( -name '*.php' \) -exec php -lf {} \;
 
-  # Run tests
-  - npm run test
