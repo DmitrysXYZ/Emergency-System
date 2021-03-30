@@ -1,77 +1,41 @@
 {
-	"name": "DmitrysXYZ/Emergency-System",
+	"name": "dmitrysxyz/emergency-system",
+	"type": "wordpress-plugin",
+	"license": "GPL-3.0-or-later",
 	"description": "Helping people stay alert in the event of a biological hazard.",
 	"homepage": "https://dmitrys.xyz/app/",
-        "type": "wordpress-plugin",
-        "license": "GPL-3.0-or-later",
-        "prefer-stable": true,
-        "minimum-stability": "dev",
+	"minimum-stability": "dev",
 	"keywords": [
-		"wordpress",
-                "who",
-		"health"
+		"ems", "wordpress", "who", "wp", "emergency", "health"
 	],
-	"repositories": [
-        {
-       "type": "path",
-       "url": "lib"
-       }
-       ],
+	"support": {
+		"issues": "https://github.com/DmitrysXYZ/Emergency-System/issues"
+	},
 	"authors": [
 		{
 			"name": "Dmitry Giannopulos",
 			"email": "hello@dmitrys.xyz",
-			"homepage": "https://dmitrys.xyz/"
+			"homepage": "https://dmitrys.xyz/",
+			"role": "Developer"
 		}
 	],
-	
-    "support": {
-        "issues": "https://github.com/DmitrysXYZ/Emergency-System/issues"
-    },
-    "require": {
-	"php": "^7.1.0||^7.4",
-	"composer/installers": "~1.7",
-        "ext-dom": "*",
-        "ext-fileinfo": "*",
-        "ext-zip": "*",
-        "middlewares/cache": "^2.0",
-        "tightenco/collect": "^17.19",
-        "vlucas/phpdotenv": "^5.0"
-    },
-    "require-dev": {
-        "php": ">=7.4",
-        "friendsofphp/php-cs-fixer": "^2.3",
-        "johnkary/phpunit-speedtrap": "^3.2",
-        "phlak/coding-standards": "^1.1",
-        "phpunit/phpunit": "^9.1",
-        "psy/psysh": "^0.10",
-        "vimeo/psalm": "^3.6"
-    },
-    "suggest": {
+        "require-dev": {
+		"php": ">=7.4",
+		"squizlabs/php_codesniffer": "^3.5",
+		"phpcompatibility/php-compatibility": "^9.3",
+		"wp-coding-standards/wpcs": "^2.2",
+		"sirbrillig/phpcs-variable-analysis": "^2.8",
+		"wp-phpunit/wp-phpunit": "^5.4",
+		"phpunit/phpunit": "^8.5"
+	},
+	"require": {
+		"composer/installers": "~1.0",
+		"ext-json": "*"
+	},
+	"suggest": {
         "ext-apcu": "Required to use the APCu cache driver",
         "ext-memcached": "Required to use the Memcached driver",
         "ext-redis": "Required to use the Redis cache driver"
-    },
-        "autoload": {
-        "psr-4": {
-            "App\\": "app/src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
-    "config": {
-        "sort-packages": true,
-        "optimize-autoloader": true,
-        "vendor-dir": "app/vendor"
-    },
-    "scripts": {
-        "serve": "php -S localhost:8080",
-        "post-create-project-cmd": [
-            "npm install && npm run dev",
-            "cp .env.example .env"
-        ]
+        },
     }
 }
