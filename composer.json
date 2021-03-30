@@ -1,6 +1,7 @@
 {
 	"name": "emergency-system",
 	"description": "Helping people stay alert in the event of a biological hazard.",
+	"type": "wordpress-plugin",
 	"keywords": [
 		"wordpress",
                 "who",
@@ -15,13 +16,10 @@
 			"homepage": "https://dmitrys.xyz/app/"
 		}
 	],
-	"type": "wordpress-plugin",
-	"support": {
-		"issues": "https://github.com/DmitrysXYZ/Emergency-System/issues",
-		"forum": "https://wordpress.org/support/plugin/emergency-system/",
-		"wiki": "https://github.com/DmitrysXYZ/Emergency-System/wiki",
-		"source": "https://github.com/DmitrysXYZ/Emergency-System"
-	},
+	
+    "support": {
+        "issues": "https://github.com/DmitrysXYZ/Emergency-System/issues"
+    },
     "require": {
 	"php": "^7.1.0||^7.4",
         "ext-dom": "*",
