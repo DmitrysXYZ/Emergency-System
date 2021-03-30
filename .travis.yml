@@ -42,4 +42,15 @@ before_script:
   - npm install
   - npm run build
   - npm run package
-  
+
+# Run test script commands
+# Default is specific to project language.
+# All commands must exit with code 0 on success. Anything else is considered failure.
+script:
+
+  # Search for PHP syntax errors.
+  - find . -maxdepth 1 \( -name '*.php' \) -exec php -lf {} \;
+  - find php/ \( -name '*.php' \) -exec php -lf {} \;
+
+  # Run tests
+  - npm run test
