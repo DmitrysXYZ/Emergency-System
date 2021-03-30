@@ -50,5 +50,5 @@
 		"check-staged-cs": [
 			"@check-cs-warnings --filter=GitStaged"
 		]
-	}
+	},
 }
