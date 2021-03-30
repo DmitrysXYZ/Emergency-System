@@ -37,5 +37,4 @@
         "ext-memcached": "Required to use the Memcached driver",
         "ext-redis": "Required to use the Redis cache driver"
         }
-    }
 }
