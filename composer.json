@@ -23,8 +23,7 @@
 		"php": ">=7.4",
 		"phpcompatibility/php-compatibility": "^9.3",
 		"wp-coding-standards/wpcs": "^2.2",
-		"wp-phpunit/wp-phpunit": "^5.4",
-		"phpunit/phpunit": "^8.5"
+		"wp-phpunit/wp-phpunit": "^5.4"
 	},
 	"require": {
 		"composer/installers": "~1.0",
