@@ -29,9 +29,7 @@ env:
 # Prepare the system by installing prerequisites and dependencies.
 # Failures in this section will result in build status 'errored'.
 before_install:
-  - nvm install node
   - composer self-update
-  - npm install -g gulp
 
 # Prepare your build for testing.
 # Failures in this section will result in build status 'errored'.
@@ -40,9 +38,6 @@ before_script:
 
   # Build plugin
   - composer install
-  - npm install
-  - npm run build
-  - npm run package
 
   # set up WP install
   - bash tests/install.sh $WP_VERSION wordpress_test root
