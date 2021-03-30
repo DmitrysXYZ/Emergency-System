@@ -50,6 +50,3 @@ script:
   # Search for PHP syntax errors.
   - find . -maxdepth 1 \( -name '*.php' \) -exec php -lf {} \;
   - find php/ \( -name '*.php' \) -exec php -lf {} \;
-
-  # Run tests
-  - npm run test
