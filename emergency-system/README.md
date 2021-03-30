@@ -1,4 +1,4 @@
-![Build Status](https://travis-ci.com/DmitrysXYZ/Emergency-System.svg?branch=main)](https://travis-ci.com/github/DmitrysXYZ/Emergency-System)
+<a href="https://travis-ci.com/github/DmitrysXYZ/Emergency-System"><img src="https://img.shields.io/travis/DmitrysXYZ/Emergency-System.svg?style=flat-square" alt="Build Status"></a>
 
 
 Emergency System
