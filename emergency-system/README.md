@@ -1,5 +1,6 @@
 ![WordPress Plugin: Tested WP Version](https://img.shields.io/wordpress/plugin/tested/emergency-system?color=21759B&logoColor=21759B&style=for-the-badge)
 ![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/emergency-system?color=21759B&logoColor=21759B&style=for-the-badge)
+![Travis (.com)](https://img.shields.io/travis/com/DmitrysXYZ/emergency-system?color=21759B&logoColor=21759B&style=for-the-badge)
 
 Emergency System
 ==============
