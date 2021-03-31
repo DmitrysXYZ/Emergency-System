@@ -1,3 +1,5 @@
+[![GitHub](https://img.shields.io/wordpress/v/akismet.svg?colorA=D14543&colorB=21759B&maxAge=2592000&style=flat&label=WordPress)](https://github.com/DmitrysXYZ/Emergency-System)
+
 # Emergency-System  v.1.0.2
 
 == Description ==
