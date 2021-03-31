@@ -21,8 +21,7 @@
 	],
         "require-dev": {
 		"wp-coding-standards/wpcs": "dev-master",
-		"phpcompatibility/php-compatibility": "^9.3",
-		"wp-phpunit/wp-phpunit": "^5.4"
+		"phpcompatibility/php-compatibility": "^9.3"
 	},
 	"require": {
 		"php": ">=7.4",
