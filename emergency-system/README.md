@@ -1,4 +1,5 @@
-<a href="https://travis-ci.com/github/DmitrysXYZ/Emergency-System"><img src="https://img.shields.io/travis/DmitrysXYZ/Emergency-System.svg?style=flat-square" alt="Build Status"></a>
+[![GitHub](https://img.shields.io/wordpress/v/akismet.svg?colorA=D14543&colorB=21759B&maxAge=2592000&style=flat&label=WordPress)](https://github.com/DmitrysXYZ/Emergency-System)
+
 
 
 Emergency System
