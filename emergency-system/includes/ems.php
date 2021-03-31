@@ -1,4 +1,3 @@
-<!-- header('x-powered-by: Emergency System(?:/([\\d.]+))?\\;version:\\1');  -->
 
 <global-ems>
 			
@@ -22,6 +21,7 @@
 <small>Made With <i class="fa fa-heart"></i> By <a href="http://dmitrys.xyz/app/" target="_blank" class="ems">Dmitrys.xyz</a></small>
 
 						</div>					
+
 					</div>
 
 				</div>
