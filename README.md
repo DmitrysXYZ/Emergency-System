@@ -21,6 +21,6 @@ Helping people stay alert in the event of a biological hazard.
 Stay up to date on all the latest developments in virology and biotechnology with ongoing updates from the W.H.O. ( World. Health. Organization ).
 
 
-#covid19safe #who #applicationmonitoring
+#covid19safe #who #applicationmonitoring #wordpress
 
 # Registration: https://dmitrys.xyz/app/
