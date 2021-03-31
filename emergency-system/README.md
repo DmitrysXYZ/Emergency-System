@@ -1,6 +1,5 @@
-[![GitHub](https://img.shields.io/wordpress/v/akismet.svg?colorA=D14543&colorB=21759B&maxAge=2592000&style=flat&label=WordPress)](https://github.com/DmitrysXYZ/Emergency-System)
-
-
+![WordPress Plugin: Tested WP Version](https://img.shields.io/wordpress/plugin/tested/emergency-system?color=21759B&logoColor=21759B&style=for-the-badge)
+![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/emergency-system?color=21759B&logoColor=21759B&style=for-the-badge)
 
 Emergency System
 ==============
