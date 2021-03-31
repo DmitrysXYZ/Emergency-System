@@ -11,7 +11,7 @@ Tags: emergency, covid-19, ems, coronavirus, covid, biological
 Requires at least: 4.4
 Requires PHP: 7.3
 Tested up to: 5.7
-Stable tag: 1.0.2
+Stable tag: 1.0.3-Beta
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,12 +49,15 @@ If you activate certain features in this plugin, the contact form submitter's pe
 
 ### USAGE
 
-Here is the basic shortcode.
-Add shortcode any page or post
+Here is the basic shortcodes.
+Add shortcodes any page or post
 
 
 **Emergency System**
 [ems-widget type="global-ems"]
+
+**Biohazard Meter**
+[eas-widget type="global-eas"]
 
 
 **Data Source:** [API](https://github.com/DmitrysXYZ/Emergency-System). 
@@ -73,7 +76,7 @@ Add shortcode any page or post
 1. Download Plugin in Zip format 
 2. Go to WordPress admin > Plugins > Add New
 3. Upload Zip file and Activate Plugin
-4. Shortcode [ems-widget type="global-ems"]
+4. Shortcodes [ems-widget type="global-ems"] OR [eas-widget type="global-eas"]
 
 == Frequently Asked Questions ==
 
@@ -88,11 +91,16 @@ Stay up to date on all the latest developments in virology and biotechnology wit
 
 1. screenshot-1.png
 2. screenshot-2.png
+3. screenshot-3.png
 
 ### Changelog
 
 For more information, see [Releases](https://dmitrys.xyz/app/changelog.php)
 
+= 1.0.3 01/04/2021 =
+* Fix: minor bugs
+* New: Biohazard Meter new shortcode
+* Update: Shortcodes 
 
 = 1.0.2 30/03/2021 =
 * Fix: minor bugs
