@@ -11,7 +11,7 @@ Tags: emergency, covid-19, ems, coronavirus, covid, biological
 Requires at least: 4.4
 Requires PHP: 7.3
 Tested up to: 5.7
-Stable tag: 1.0.3-Beta
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
