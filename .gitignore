@@ -8,7 +8,7 @@ emergency-system.php
 # Dist files
 ############
 /inlcudes/*
-/inlcudes/widgets/*
+/languages/*
 /vendor/*
 /assets/*
 
