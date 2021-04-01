@@ -49,7 +49,7 @@ If you activate certain features in this plugin, the contact form submitter's pe
 
 ### USAGE
 
-Here is the basic shortcodes.
+Here is the basic shortcode.
 Add shortcodes any page or post
 
 
