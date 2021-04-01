@@ -42,12 +42,13 @@
 
             <br>
 			<div class="flex-row color-palette">
-				<div class="White"><center>0-20 %</center></div>
-				<div class="Green"><center>20-40 %</center></div>
-				<div class="Yellow"><center>40-60 %</center></div>
-				<div class="Orange"><center>60-80 %</center></div>
-				<div class="Red"><center>80-100 %</center></div>
+				<div class="White"></div>
+				<div class="Green"></div>
+				<div class="Yellow"></div>
+				<div class="Orange"></div>
+				<div class="Red"></div>
 			</div>
+            <br>
 
 <small>Made With <i class="fa fa-heart"></i> By <a href="http://dmitrys.xyz/app/" target="_blank" class="ems">Dmitrys.xyz</a></small>			
 
