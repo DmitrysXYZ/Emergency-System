@@ -34,3 +34,11 @@
     margin-top: 16px;
     text-decoration: none;
 }
+#adminmenu .wp-menu-image img {
+    padding: 9px 0 0 0;
+    opacity: .6;
+}
+#adminmenu .wp-menu-image > img {
+    width: 20px;
+    padding: 7px;
+}
