@@ -3,7 +3,7 @@
 * Plugin Name: Emergency System
 * Description: Helping people stay alert in the event of a biological hazard. To give a step to scientists in this field to publish their scientific works, reports, research.
 * Author: Dmitry N. Giannopulos
-* Version: 1.0.3
+* Version: 1.0.4
 * Author URI: https://dmitrys.xyz/
 * Text Domain: emergency-system
 * Domain Path: /languages/
@@ -19,6 +19,14 @@
 
 // Exit if accessed directly.
 
+/*-----------------------------------------
+                Autoloader
+------------------------------------------*/
+require_once dirname( __FILE__ ) . '/includes/autoload.php';
+
+
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
@@ -31,10 +39,15 @@ if ( !defined('EMS_PLUGIN_PATH') ) {
     define( 'EMS_PLUGIN_PATH', plugin_dir_path(__FILE__ ) );
 }
 
+
+/**
+ * Defines Constants for Future use
+ */
+define( 'EMS_FILE', __FILE__ );
 define( 'EMS_VERSION', '1.0.3' );
-define( 'EMS_DEBUG', true );
-define( 'EMS_URL', 'https://dmitrys.xyz/app/' );
 define( 'EMS_LANG_DIR', 'languages');
+
+
 
 class EMS_Stats {
 
@@ -47,7 +60,7 @@ class EMS_Stats {
 
     // quick setting link in plugin section
     public function setting_link($links) {
-        $settings_link = '<a href="https://dmitrys.xyz/app/login.php" target="_blank">Settings</a>';
+        $settings_link = '<a href="admin.php?page=emergency-system/includes/admin.php">Settings</a>';
         array_unshift( $links, $settings_link );
         return $links;
     }// end function
@@ -57,7 +70,7 @@ $ems_stats = new EMS_Stats;
 /*-----------------------------------------
                 Shortcodes
 ------------------------------------------*/
-include_once EMS_PLUGIN_PATH .'/includes/ems-widget.php';
+include_once EMS_PLUGIN_PATH .'/includes/widget.php';
 
 /*-----------------------------------------
             Text Domain Setup
