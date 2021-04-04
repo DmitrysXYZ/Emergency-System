@@ -7,6 +7,8 @@
 * Author URI: https://dmitrys.xyz/
 * Text Domain: emergency-system
 * Domain Path: /languages/
+* License: GPLv3 or later
+* License URI: https://www.gnu.org/licenses/gpl-3.0.html
 *
 * Emergency System
 * Copyright (C) 2018-2021, Dmitrys.xyz - info@dmitrys.xyz
@@ -44,7 +46,7 @@ if ( !defined('EMS_PLUGIN_PATH') ) {
  * Defines Constants for Future use
  */
 define( 'EMS_FILE', __FILE__ );
-define( 'EMS_VERSION', '1.0.3' );
+define( 'EMS_VERSION', '1.0.4' );
 define( 'EMS_LANG_DIR', 'languages');
 
 

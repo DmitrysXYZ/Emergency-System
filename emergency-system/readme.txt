@@ -1,12 +1,12 @@
 === Emergency System ===
 Contributors: Dmitry N. Giannopulos
-Tags: emergency, covid-19, ems, eas, biohazard, biological 
+Tags: emergency, biohazard, covid-19, ems, biological 
 Requires at least: 4.4
 Requires PHP: 7.3
 Tested up to: 5.7
-Stable tag: 1.0.3
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Stable tag: 1.0.4
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
  
@@ -85,10 +85,17 @@ Stay up to date on all the latest developments in virology and biotechnology wit
 1. screenshot-1.png
 2. screenshot-2.png
 3. screenshot-3.png
+4. screenshot-4.png
 
 == Changelog ==
 
 For more information, see [Releases](https://dmitrys.xyz/app/changelog.php)
+
+= 1.0.4 04/04/2021 =
+* Fix: minor bugs, Re-builder Core
+* New: Admin Panel
+* Update: Style, Scripts, Core 
+* Update: Biohazard Report and EMS 
 
 = 1.0.3 01/04/2021 =
 * Fix: minor bugs
