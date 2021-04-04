@@ -10,11 +10,13 @@
                         <center><h2>Emergency System</h2></center>
 
 <hr>
-           <div class="alert-message alert-message-danger">
+
+            <div class="alert-message alert-message-warning">
                 <h4>
-                    <i class="fas fa-biohazard"></i> Alert Message Danger</h4>
+                    <i class="fas fa-exclamation-triangle"></i> Alert Message Warning</h4>
                 <p>
-                The pandemic is very dangerous. Keep frequently informed about detailed expected pandemic goverment conditions and risks. Follow                orders and any advice given by your authorities under all circumstances, be prepared for extraordinary measures.</p>
+                The pandemic is dangerous. Keep frequently informed about detailed expected pandemic goverment conditions and risks.
+                Be aware of the risks that might be unavoidable. Follow any advice given by your authorities.</strong>.</p>
             </div>	
 
 <hr>

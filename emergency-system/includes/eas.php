@@ -14,9 +14,9 @@
 <!-- eas -->
         <section>
             <article>
-                <input type="radio" name="switch-color" id="Orange" checked>
-                <div class="chart"><strong>65%</strong>
-                    <div class="bar bar-65 white">
+                <input type="radio" name="switch-color" id="Yellow" checked>
+                <div class="chart"><strong>45%</strong>
+                    <div class="bar bar-45 white">
                         <div class="face top">
                             <div class="growing-bar"></div>
                         </div>
