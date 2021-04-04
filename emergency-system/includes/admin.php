@@ -24,12 +24,19 @@ wp_enqueue_style( 'ems__all',  EMS_PLUGIN_DIR . '/assets/css/all.min.css', array
 				</div>
 			</div>
 			<!-- End Intro -->
-
+            
+         		<!-- Start Pre Code -->
+				
+<div class="container">
+Stay up to date with all the latest developments in the world.
+<br>
+Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN, DEFCON, EMERGCONs).
+</div>			
+				<!-- End Pre Code -->
 
 				<!-- Start Pre Code -->
 				
 <div class="container">
-<div class="fh5co-spacer fh5co-spacer-md"></div>
 <h2 class="h2">== Usage ==</h2>
 Here is the basic shortcode.
 <br>
@@ -50,13 +57,12 @@ Add shortcodes any page or post
 <code>
 [eas-widget type="global-eas"]
 </code>
-</div>
-</div>				
+</div>			
 				<!-- End Pre Code -->
                 
          <div class="fh5co-spacer fh5co-spacer-md"></div>
-                
-             <!-- Start  Let's Chat -->
+         
+            <!-- Start  Let's Chat -->
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">

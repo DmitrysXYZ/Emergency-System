@@ -15,8 +15,8 @@
                 <h4>
                     <i class="fas fa-exclamation-triangle"></i> Alert Message Warning</h4>
                 <p>
-                The pandemic is dangerous. Keep frequently informed about detailed expected pandemic goverment conditions and risks.
-                Be aware of the risks that might be unavoidable. Follow any advice given by your authorities.</strong>.</p>
+                The biohazard is dangerous. Keep frequently informed about detailed expected biohazard goverment conditions and risks.
+                Be aware of the risks that might be unavoidable. Follow any advice given by your authorities.</p>
             </div>	
 
 <hr>
