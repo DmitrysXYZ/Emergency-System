@@ -13,11 +13,11 @@ Helping people stay alert in the event of a chemical, biological, radiological, 
 
 # DEFCON - EMERGCONs Levels
 
-# DEFCON 1: Maximum military readiness for "immediate response" to threats or attacks
-# DEFCON 2: Military forces stand ready to deploy and fight in six hours or less
-# DEFCON 3: Select forces are ready to deploy in 15 minutes
-# DEFCON 4: "Above normal readiness"
-# DEFCON 5: "Normal"
+DEFCON 1: Maximum military readiness for "immediate response" to threats or attacks
+DEFCON 2: Military forces stand ready to deploy and fight in six hours or less
+DEFCON 3: Select forces are ready to deploy in 15 minutes
+DEFCON 4: "Above normal readiness"
+DEFCON 5: "Normal"
 
 ### USAGE
 
