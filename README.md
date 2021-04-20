@@ -44,7 +44,7 @@ Add shortcodes any page or post
 ### Frequently Asked Questions
 
 # What is Emergency System?
-Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN, DEFCON, EMERGCONs).
+Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN, EMERGCONs).
 
 # How often data updates?
 The data are collected on a daily basis and analyzed according to the situation of urgent need, in cases chemical, biological, radiological, nuclear hazard (CBRN, EMERGCONs).
