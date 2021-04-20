@@ -30,7 +30,7 @@ wp_enqueue_style( 'ems__all',  EMS_PLUGIN_DIR . '/assets/css/all.min.css', array
 <div class="container">
 Stay up to date with all the latest developments in the world.
 <br>
-Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN, DEFCON, EMERGCONs).
+Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN, EMERGCONs).
 </div>			
 				<!-- End Pre Code -->
 
