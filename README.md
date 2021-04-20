@@ -3,21 +3,13 @@
 ![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/emergency-system?color=21759B&logoColor=21759B&style=for-the-badge)
 ![WordPress Plugin Downloads](https://img.shields.io/wordpress/plugin/dt/emergency-system?color=21759B&logoColor=21759B&style=for-the-badge)
 
-# Emergency-System  v.1.0.4
+# Emergency-System  v.1.0.5
 
 ###  Description
  
 # Emergency system
 Stay up to date with all the latest developments in the world.
-Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN, DEFCON, EMERGCONs).
-
-# DEFCON - EMERGCONs Levels
-
-DEFCON 1: Maximum military readiness for "immediate response" to threats or attacks
-DEFCON 2: Military forces stand ready to deploy and fight in six hours or less
-DEFCON 3: Select forces are ready to deploy in 15 minutes
-DEFCON 4: "Above normal readiness"
-DEFCON 5: "Normal"
+Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN, EMERGCONs).
 
 ### USAGE
 
@@ -39,7 +31,7 @@ Add shortcodes any page or post
 
 # Minimum Requirements
 
-* WordPress 4.4.0 or greater
+* WordPress 4.5.0 or greater
 * PHP version 7.3 or greater
 
 # Installing manually
@@ -55,10 +47,7 @@ Add shortcodes any page or post
 Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN, DEFCON, EMERGCONs).
 
 # How often data updates?
-The data are collected on a daily basis and analyzed according to the situation of urgent need, in cases chemical, biological, radiological, nuclear hazard (CBRN, DEFCON, EMERGCONs).
-
-# What are DEFCON levels?
-DEFCON levels are specifically tied to the likelihood of a nuclear threat, and since current laws of armed conflict do not prohibit the use of or development of nuclear arms, the Defense Department relies on the DEFCON system as a means to keep troops ready to meet the needs of an armed conflict or the threat of one that may include the use of nukes.
+The data are collected on a daily basis and analyzed according to the situation of urgent need, in cases chemical, biological, radiological, nuclear hazard (CBRN, EMERGCONs).
 
 
 ### Upgrade Notice
