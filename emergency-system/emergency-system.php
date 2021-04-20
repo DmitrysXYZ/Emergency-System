@@ -1,9 +1,9 @@
 <?php
 /*
 * Plugin Name: Emergency System
-* Description: Helping people stay alert in the event of a biological hazard. To give a step to scientists in this field to publish their scientific works, reports, research.
+* Description: Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN, EMERGCONs).
 * Author: Dmitry N. Giannopulos
-* Version: 1.0.4
+* Version: 1.0.5
 * Author URI: https://dmitrys.xyz/
 * Text Domain: emergency-system
 * Domain Path: /languages/
@@ -46,7 +46,7 @@ if ( !defined('EMS_PLUGIN_PATH') ) {
  * Defines Constants for Future use
  */
 define( 'EMS_FILE', __FILE__ );
-define( 'EMS_VERSION', '1.0.4' );
+define( 'EMS_VERSION', '1.0.5' );
 define( 'EMS_LANG_DIR', 'languages');
 
 

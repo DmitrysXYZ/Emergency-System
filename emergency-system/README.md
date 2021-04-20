@@ -7,11 +7,11 @@ Emergency System
 ==============
 
 Contributors: Dmitry N. Giannopulos
-Tags: emergency, biohazard, covid-19, ems, defcon, emergcon 
-Requires at least: 4.4
+Tags: emergency, biohazard, covid-19, ems, cbrn, emergcon 
+Requires at least: 4.5
 Requires PHP: 7.3
 Tested up to: 5.7
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -19,15 +19,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
  
 = Emergency system =
 Stay up to date with all the latest developments in the world.
-Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN, DEFCON, EMERGCONs).
-
-= DEFCON - EMERGCONs Levels =
-
-DEFCON 1: Maximum military readiness for "immediate response" to threats or attacks
-DEFCON 2: Military forces stand ready to deploy and fight in six hours or less
-DEFCON 3: Select forces are ready to deploy in 15 minutes
-DEFCON 4: "Above normal readiness"
-DEFCON 5: "Normal"
+Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN, EMERGCONs).
 
 ###  Docs and support
 
@@ -75,7 +67,7 @@ Add shortcodes any page or post
 
 = Minimum Requirements =
 
-* WordPress 4.4.0 or greater
+* WordPress 4.5.0 or greater
 * PHP version 7.3 or greater
 
 = Installing manually =
@@ -88,14 +80,10 @@ Add shortcodes any page or post
 == Frequently Asked Questions ==
 
 = What is Emergency System? =
-Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN, DEFCON, EMERGCONs).
+Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN, EMERGCONs).
 
 = How often data updates? =
-The data are collected on a daily basis and analyzed according to the situation of urgent need, in cases chemical, biological, radiological, nuclear hazard (CBRN, DEFCON, EMERGCONs).
-
-= What are DEFCON levels? =
-DEFCON levels are specifically tied to the likelihood of a nuclear threat, and since current laws of armed conflict do not prohibit the use of or development of nuclear arms, the Defense Department relies on the DEFCON system as a means to keep troops ready to meet the needs of an armed conflict or the threat of one that may include the use of nukes.
-
+The data are collected on a daily basis and analyzed according to the situation of urgent need, in cases chemical, biological, radiological, nuclear hazard (CBRN, EMERGCONs).
 
 ###  Screenshots
 
@@ -107,6 +95,12 @@ DEFCON levels are specifically tied to the likelihood of a nuclear threat, and s
 ### Changelog
 
 For more information, see [Releases](https://dmitrys.xyz/app/changelog.php)
+
+= 1.0.5 21/04/2021 =
+* Fix: minor bugs
+* New: EMERGCONs Hazard table EAS
+* Update: Scripts, Core 
+* Update: Biohazard Report
 
 = 1.0.4 04/04/2021 =
 * Fix: minor bugs, Re-builder Core
