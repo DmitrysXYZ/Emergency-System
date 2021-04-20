@@ -3,7 +3,7 @@ Dependabot::DependencyFileNotParseable
 {
   "name": "emergency-system",
   "title": "Emergency System",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"homepage": "https://github.com/DmitrysXYZ/Emergency-System",
   "license": "GPL-3.0-or-later",
   "description": "Helping people stay alert in the event of a biological hazard.",
@@ -20,6 +20,6 @@ Dependabot::DependencyFileNotParseable
     "url": "https://github.com/DmitrysXYZ/Emergency-System"
   },
     "emergency-system": {
-    "pluginVersion": "1.0.4"
+    "pluginVersion": "1.0.5"
   }
 }
