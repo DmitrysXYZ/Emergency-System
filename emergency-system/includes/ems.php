@@ -11,12 +11,12 @@
 
 <hr>
 
-            <div class="alert-message alert-message-notice">
+            <div class="alert-message alert-message-warning">
                 <h4>
-                    <i class="fas fa-exclamation-circle"></i> Alert Message Notice</h4>
+                    <i class="fas fa-exclamation-triangle"></i> Alert Message Warning</h4>
                 <p>
-                The biohazard is potentially dangerous.
-                Keep frequently informed about detailed expected biohazard goverment conditions and risks.</p>
+                The biohazard is dangerous. Keep frequently informed about detailed expected biohazard goverment conditions and risks.
+                Be aware of the risks that might be unavoidable. Follow any advice given by your authorities.</p>
             </div>
 
 <hr>
@@ -29,5 +29,6 @@
 				</div>
 			</div>
 			<!-- End Work -->
+            
            
 <global-ems>
