@@ -1,9 +1,9 @@
 <?php
 /*
 * Plugin Name: Emergency System
-* Description: Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN, EMERGCONs).
+* Description: Helping people stay alert in the event of a chemical, biological, radiological, nuclear hazard (CBRN).
 * Author: Dmitry N. Giannopulos
-* Version: 1.0.5
+* Version: 1.0.6
 * Author URI: https://dmitrys.xyz/
 * Text Domain: emergency-system
 * Domain Path: /languages/
@@ -46,7 +46,7 @@ if ( !defined('EMS_PLUGIN_PATH') ) {
  * Defines Constants for Future use
  */
 define( 'EMS_FILE', __FILE__ );
-define( 'EMS_VERSION', '1.0.5' );
+define( 'EMS_VERSION', '1.0.6' );
 define( 'EMS_LANG_DIR', 'languages');
 
 
@@ -82,13 +82,6 @@ function ems__textdomain() {
 }
 add_action( 'init', 'ems__textdomain' );
 
-if ( is_admin() ) {
-
-    include_once EMS_PLUGIN_PATH . '/includes/notices.php';
-    require __DIR__ . '/vendor/persist-admin-notices-dismissal/persist-admin-notices-dismissal.php';
-    add_action( 'admin_init', array( 'PAnD', 'init' ) );
-}
-
 function ems__styles() {
     $google_font = 'https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap';
     wp_register_style( 'ems__styles_font',  $google_font );
@@ -106,7 +99,7 @@ function posk_requires_wordpress_version() {
 	global $wp_version;
 	$plugin = plugin_basename( __FILE__ );
 	$plugin_data = get_plugin_data( __FILE__, false );
-	$require_wp = "4.4";
+	$require_wp = "4.5";
  
 	if ( version_compare( $wp_version, $require_wp, "<" ) ) {
 		if( is_plugin_active($plugin) ) {
